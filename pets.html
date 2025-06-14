@@ -10,34 +10,19 @@
 
 <body>
     <header style="background: url('img/jumbotron.jpg') center/cover no-repeat;">
-        <h1> こんにちは! Welcome to Ruby Chan's Pet Store!</h1>
+        <h1>สวัสดี こんにちは Welcome to Our Pet Store</h1>
         <nav>
-            <a href="#">Home</a>
-            <a href="pets.html">Pets</a>
+            <a href="index.html">Home</a>
+            <a href="#">Pets</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
 
     <main>
         <section class="featured">
-            <h2>Featured Pets 🐶</h2>
-            <div class="pet-list">
-                <div class="pet">
-                    <img src="img/cats/cat01.jpg" alt="Tabby Cat">
-                    <p>Whiskers – Domestic Shorthair Tabby</p>
-                    <button onclick="adoptPet()">Adopt Now</button>
-                </div>
-                <div class="pet">
-                    <img src="img/cats/cat02.jpg" alt="British Shorthair Cat">
-                    <p>Mochi – British Shorthair</p>
-                    <button onclick="adoptPet()">Adopt Now</button>
-                </div>
-                <div class="pet">
-                    <img src="img/cats/cat03.jpg" alt="Orange Tabby Cat">
-                    <p>Sunny – Orange Tabby</p>
-                    <button onclick="adoptPet()">Adopt Now</button>
-                </div>
-</div>
+            <h2>All Pets 🐶</h2>
+            <div id="all-pets" class="pet-list">
+               
             </div>
         </section>
     </main>
@@ -55,6 +40,7 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="loadpets.js"></script>
 </body>
 
 </html>
