@@ -30,9 +30,11 @@ nav a {
 }
 
 .pet-list {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Or fixed 4: repeat(4, 1fr) */
+  gap: 20px;
+  justify-items: center;
+  padding: 20px;
 }
 
 .pet {
