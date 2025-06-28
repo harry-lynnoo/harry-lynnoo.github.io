@@ -1,0 +1,6 @@
+[
+  { "description": "Necklace", "unitPrice": 250 },
+  { "description": "Bracelet", "unitPrice": 150 },
+  { "description": "Ring", "unitPrice": 100 },
+  { "description": "Earrings", "unitPrice": 180 }
+]
